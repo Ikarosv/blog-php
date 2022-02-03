@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300');
+* {
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    white-space: nowrap;
+    color: white!important;
+    font-family: 'Open Sans', sans-serif!important;
+}
+a:hover {
+    text-decoration: none!important;
+    color: rgba(245, 245, 245, 0.884)!important;
+}
+.cabecalho {
+    border-bottom: solid 1px rgb(0, 0, 0)!important;;
+}
+.cabecalho > ul > li > a{
+    color: rgb(39, 158, 3);
+    font-size: small;
+    padding: 10px;
+    padding-bottom: 14px;
+}
+
+.borda {
+    border: solid 1px red!important;
+}
+.Header {
+    z-index: 32;
+    font-size: 14px;
+    line-height: 1.5;
+    padding: 16px 32px!important;
+    background-color: rgb(34, 34, 34);
+}
+.Header-item {
+    display: flex;
+    margin-right: 16px;
+    align-self: stretch;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.Header-item a:hover{
+    text-decoration: none;
+    color: rgba(245, 245, 245, 0.884);
+}
+.Header-item--full {
+    flex: auto;
+}
+.Header-link {
+    font-weight: 600;
+    color: white;
+    white-space: nowrap;
+}
+.Header-link-btn:hover {
+    text-decoration: none;
+    color: #292929!important;
+}
+.Header-search-wrapper {
+    max-height: 28px!important;
+    display: table;
+    width: 100%;
+    max-width: 100%;
+    font-size: inherit;
+    font-weight: 400;
+    color: white;
+    vertical-align: middle;
+    background-color: rgb(34, 34, 34)!important;
+    box-shadow: none;
+    padding: 0px;
+    border: 0.8px solid rgb(15, 15, 15)!important;
+}
+.Header-search-input {
+    max-height: 27px!important;
+    display: table-cell;
+    width: 100%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: inherit;
+    color: inherit;
+    box-shadow: none;
+    background: none!important;
+    border-width: 0px;
+    /* border-style: initial;
+    border-color: initial;
+    border-image: initial; */
+    transition: border=none;;
+}
+.Header-search-input:focus{
+    border: 0px!important;
+    outline: none!important;
+}
+.time-coluna-esquerda {
+    max-width: 350px;
+    background-color: #1b1b1b;
+}
+.f5 {
+    font-size: 14px!important;
+}
+.linkss {
+    text-decoration: none;
+    color: white!important;
+}
+.linkss:hover {
+    text-decoration: underline;
+    color: rgba(245, 245, 245, 0.884)!important;
+}
