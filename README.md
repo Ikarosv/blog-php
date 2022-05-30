@@ -1,2 +1,2 @@
 # miniprojetos
-Vou colocar meus minis projetos de sites, nada muito complexo...
+Alguns projetos pequenos de site, nada muito complexo.
